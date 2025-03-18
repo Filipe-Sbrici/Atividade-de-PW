@@ -12,50 +12,57 @@
 
         $Nome = $_POST ['nome']
 
-        $xbu = 6 * ((int)$_POST ['xbu']);
-        $xsa = 8 * ((int)$_POST ['xsa']);
-        $xba = 10 * ((int)$_POST ['xba']);
-        $xtu = 12 * ((int)$_POST ['xtu']);
-        $xdu = 15 * ((int)$_POST ['xdu']);
+        $xbu = $_POST ['xbu'];
+        $xsa = $_POST ['xsa'];
+        $xba = $_POST ['xba'];
+        $xtu = $_POST ['xtu'];
+        $xdu = $_POST ['xdu'];
 
-        $agu = 2 * ((int)$_POST ['agu']);
-        $suc = 5 * ((int)$_POST ['suc']);
-        $lat = 3 * ((int)$_POST ['lat']);
-        $sei = 5 * ((int)$_POST ['sei']);
-        $lit = 8 * ((int)$_POST ['lit']);
+        $agu = $_POST ['agu'];
+        $suc = $_POST ['suc'];
+        $lat = $_POST ['lat'];
+        $sei = $_POST ['sei'];
+        $lit = $_POST ['lit'];
+
+        $qxbu = 6 * (int)$xbu;
+        $qxsa = 8 * (int)$xsa;
+        $qxba = 10 * (int)$xba;
+        $qxtu = 12 * (int)$xtu;
+        $qxdu = 15 * (int)$xdu;
+
+        $qagu = 2;
+        $qsuc = 5 ;
+        $qlat = 3 ;
+        $qsei = 5 ;
+        $qlit = 8 ;
 
 
-        $tot = $xbu + $xsa + $xba + $xtu + $xdu + $agu + $suc + $lat + $sei + $lit; 
+        $tot = $qxbu + $qxsa + $qxba + $qxtu + $qxdu + $qagu + $qsuc + $qlat + $qsei + $qlit; 
         echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>Olá $Nome, o total a pagar é de $tot</p>";
 
 
         if ($xbu != 0)
         {
-            $xbu = $xbu / 6;
-            echo <p class = "tex">você comeu $xbu X-burguers</p> ;
+            echo <p class = "tex">você comeu $xbu X-burguers</p> 
         }else{}
 
         if ($xsa != 0)
         {
-            $xsa = $xsa / 8;
             echo "você comeu $xsa X-saladas" ;
         }else{}
 
         if ($xba != 0)
         {
-            $xba = $xba / 10;
             echo "você comeu $xba X-bacons" ;
         }else{}
 
         if ($xtu != 0)
         {
-            $xtu = $xtu / 12;
             echo "você comeu $xtu X-tudo"; 
         }else{}
 
         if ($xdu != 0)
         {
-            $xdu = $xdu / 15;
             echo "você comeu $xdu X-duplos" ;
         }else{}
 
