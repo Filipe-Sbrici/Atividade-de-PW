@@ -9,22 +9,36 @@
 <body>
 
 <?php
+
         $xbu = 6 * ($_POST ['xbu']);
-        $xsa = $_POST ['xsa'];
-        $xba = $_POST ['xba'];
-        $xtu = $_POST ['xtu'];
-        $xdu = $_POST ['xdu'];
+        $xsa = 8 * ($_POST ['xsa']);
+        $xba = 10 * ($_POST ['xba']);
+        $xtu = 12 * ($_POST ['xtu']);
+        $xdu = 15 * ($_POST ['xdu']);
 
-        $agu = $_POST ['agu'];
-        $suc = $_POST ['suc'];
-        $lat = $_POST ['lat'];
-        $sei = $_POST ['sei'];
-        $lit = $_POST ['lit'];
+        $agu = 2 * ($_POST ['agu']);
+        $suc = 5 * ($_POST ['suc']);
+        $lat = 3 * ($_POST ['lat']);
+        $sei = 5 * ($_POST ['sei']);
+        $lit = 8 * ($_POST ['lit']);
 
-        $tot = 
 
-        echo $xbu;
+        $qxbu = 6 * ($xbu);
+        $qxsa = 8 * ($xsa);
+        $qxba = 10 * ($xba);
+        $qxtu = 12 * ($xtu);
+        $qxdu = 15 * ($xdu);
 
+        $qagu = 2 * ($agu);
+        $qsuc = 5 * ($suc);
+        $qlat = 3 * ($lat);
+        $qsei = 5 * ($sei);
+        $qlit = 8 * ($lit);
+
+        $tot = $qxbu + $qxsa + $qxba + $qxtu + $qxdu + $qagu + $qsuc + $qlat + $qsei + $qlit; 
+
+        
+        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>O total a pagar é de $tot</p>";
         
 ?>
     
