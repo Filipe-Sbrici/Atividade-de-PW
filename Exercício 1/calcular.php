@@ -10,17 +10,17 @@
 
 <?php
 
-        $xbu = 6 * ($_POST ['xbu']);
-        $xsa = 8 * ($_POST ['xsa']);
-        $xba = 10 * ($_POST ['xba']);
-        $xtu = 12 * ($_POST ['xtu']);
-        $xdu = 15 * ($_POST ['xdu']);
+        $xbu = 6 * ((int)$_POST ['xbu']);
+        $xsa = 8 * ((int)$_POST ['xsa']);
+        $xba = 10 * ((int)$_POST ['xba']);
+        $xtu = 12 * ((int)$_POST ['xtu']);
+        $xdu = 15 * ((int)$_POST ['xdu']);
 
-        $agu = 2 * ($_POST ['agu']);
-        $suc = 5 * ($_POST ['suc']);
-        $lat = 3 * ($_POST ['lat']);
-        $sei = 5 * ($_POST ['sei']);
-        $lit = 8 * ($_POST ['lit']);
+        $agu = 2 * ((int)$_POST ['agu']);
+        $suc = 5 * ((int)$_POST ['suc']);
+        $lat = 3 * ((int)$_POST ['lat']);
+        $sei = 5 * ((int)$_POST ['sei']);
+        $lit = 8 * ((int)$_POST ['lit']);
 
 
         $tot = $xbu + $xsa + $xba + $xtu + $xdu + $agu + $suc + $lat + $sei + $lit; 
