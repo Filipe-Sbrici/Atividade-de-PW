@@ -13,21 +13,21 @@
 
     <h1> Lanches: </h1>
 
-    <h2>X Burger(6,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
-    <h2>X Salada(8,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
-    <h2>X Bacon(10,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
-    <h2>X Tudo(12,00)  <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
-    <h2>X Duplo(15,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
+    <h2>X Burger(6,00) <input type="number" name="xbu" min="0" max="99"></h2>
+    <h2>X Salada(8,00) <input type="number" name="xsa" min="0" max="99"></h2>
+    <h2>X Bacon(10,00) <input type="number" name="xba" min="0" max="99"></h2>
+    <h2>X Tudo(12,00)  <input type="number" name="xtu" min="0" max="99"></h2>
+    <h2>X Duplo(15,00) <input type="number" name="xdu" min="0" max="99"></h2>
 
     <br></br>
 
     <h1> Bebidas: </h1>
 
-    <h2>Água (R$2,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
-    <h2>Suco (R$5,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
-    <h2>Lata (R$3,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
-    <h2>Refri 600 ml (R$5,00)  <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
-    <h2>Refri 2 Litros (R$8,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
+    <h2>Água (R$2,00) <input type="number" name="agu" min="0" max="99"></h2>
+    <h2>Suco (R$5,00) <input type="number" name="suc" min="0" max="99"></h2>
+    <h2>Lata (R$3,00) <input type="number" name="lat" min="0" max="99"></h2>
+    <h2>Refri 600 ml (R$5,00)  <input type="number" name="600" min="0" max="99"></h2>
+    <h2>Refri 2 Litros (R$8,00) <input type="number" name="lit" min="0" max="99"></h2>
 
     <input type="submit">
 </form>
