@@ -1,0 +1,21 @@
+body{
+    background-color: #700505
+}
+
+h1{
+    font-size: 20px;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    color: rgb(250, 238, 225);
+}
+
+h2{
+    font-size: 16px;
+    font-family: Comic Sans MS;
+    color: rgb(250, 238, 225);
+}
+
+input[type = "text"]{
+    font-family: Comic Sans MS;
+    font-weight: bold;
+}

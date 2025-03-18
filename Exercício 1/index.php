@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+    <link href="styles.css" rel="stylesheet" >
+</head>
+<body>
+<h1>Menu Aborgue:</h1>
+
+<form method = "post" action="calcular.php">
+
+    <h1> Lanches: </h1>
+
+    <h2>X Burger(6,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
+    <h2>X Salada(8,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
+    <h2>X Bacon(10,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
+    <h2>X Tudo(12,00)  <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
+    <h2>X Duplo(15,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
+
+    <br></br>
+
+    <h1> Bebidas: </h1>
+
+    <h2>Água (R$2,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
+    <h2>Suco (R$5,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
+    <h2>Lata (R$3,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
+    <h2>Refri 600 ml (R$5,00)  <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
+    <h2>Refri 2 Litros (R$8,00) <input type="number" id="quantity" name="quantity" min="0" max="99"></h2>
+
+    <input type="submit">
+</form>
+    
+</body>
+</html>
