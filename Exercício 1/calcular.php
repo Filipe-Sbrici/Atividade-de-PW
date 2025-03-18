@@ -9,29 +9,23 @@
 <body>
 
 <?php
-        $num1 = $_POST ['num1'];
-        $num2 = $_POST ['num2'];
-        $num1 = $_POST ['num1'];
-        $num2 = $_POST ['num2'];
-        $num1 = $_POST ['num1'];
-        $num2 = $_POST ['num2'];
-        $num1 = $_POST ['num1'];
-        $num2 = $_POST ['num2'];
-        $num1 = $_POST ['num1'];
-        $num2 = $_POST ['num2'];
+        $xbu = 6 * ($_POST ['xbu']);
+        $xsa = $_POST ['xsa'];
+        $xba = $_POST ['xba'];
+        $xtu = $_POST ['xtu'];
+        $xdu = $_POST ['xdu'];
 
-        if ($num1 > $num2){
-        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>$num1 é maior que $num2</p>";
+        $agu = $_POST ['agu'];
+        $suc = $_POST ['suc'];
+        $lat = $_POST ['lat'];
+        $sei = $_POST ['sei'];
+        $lit = $_POST ['lit'];
 
-        }
-        else if ($num2 > $num1){ 
-                echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>$num2 é maior que $num1</p>";
+        $tot = 
 
-        }
-        else{
-                echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>$num2 é igual $num1</p>";
+        echo $xbu;
 
-        }
+        
 ?>
     
 </body>
