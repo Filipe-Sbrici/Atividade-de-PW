@@ -10,6 +10,8 @@
 
 <?php
 
+        $Nome = $_POST ['nome']
+
         $xbu = 6 * ((int)$_POST ['xbu']);
         $xsa = 8 * ((int)$_POST ['xsa']);
         $xba = 10 * ((int)$_POST ['xba']);
@@ -24,13 +26,13 @@
 
 
         $tot = $xbu + $xsa + $xba + $xtu + $xdu + $agu + $suc + $lat + $sei + $lit; 
+        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>Olá $Nome, o total a pagar é de $tot</p>";
 
-        
-        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>O total a pagar é de $tot</p>";
+
         if ($xbu != 0)
         {
             $xbu = $xbu / 6;
-            echo "você comeu $xbu X-burguers" ;
+            echo <p class = "tex">você comeu $xbu X-burguers</p> ;
         }else{}
 
         if ($xsa != 0)

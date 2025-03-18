@@ -19,3 +19,9 @@ input[type = "text"]{
     font-family: Comic Sans MS;
     font-weight: bold;
 }
+
+.tex{
+    font-size: 16px;
+    font-family: Comic Sans MS;
+    color: rgb(250, 238, 225);
+}
