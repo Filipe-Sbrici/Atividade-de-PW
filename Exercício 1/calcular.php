@@ -23,23 +23,40 @@
         $lit = 8 * ($_POST ['lit']);
 
 
-        $qxbu = 6 * ($xbu);
-        $qxsa = 8 * ($xsa);
-        $qxba = 10 * ($xba);
-        $qxtu = 12 * ($xtu);
-        $qxdu = 15 * ($xdu);
-
-        $qagu = 2 * ($agu);
-        $qsuc = 5 * ($suc);
-        $qlat = 3 * ($lat);
-        $qsei = 5 * ($sei);
-        $qlit = 8 * ($lit);
-
-        $tot = $qxbu + $qxsa + $qxba + $qxtu + $qxdu + $qagu + $qsuc + $qlat + $qsei + $qlit; 
+        $tot = $xbu + $xsa + $xba + $xtu + $xdu + $agu + $suc + $lat + $sei + $lit; 
 
         
         echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>O total a pagar é de $tot</p>";
-        
+        if ($xbu != 0)
+        {
+            $xbu = $xbu / 6;
+            echo "você comeu $xbu X-burguers" 
+        }
+
+        if ($xsa != 0)
+        {
+            $xsa = $xsa / 8;
+            echo "você comeu $xsa X-saladas" 
+        }
+        if ($xba != 0)
+        {
+            $xba = $xba / 10;
+            echo "você comeu $xba X-bacons" 
+        }
+        if ($xtu != 0)
+        {
+            $xtu = $xtu / 12;
+            echo "você comeu $xtu X-tudo" 
+        }
+        if ($xdu != 0)
+        {
+            $xdu = $xdu / 15;
+            echo "você comeu $xdu X-duplos" 
+        }
+
+
+
+
 ?>
     
 </body>
