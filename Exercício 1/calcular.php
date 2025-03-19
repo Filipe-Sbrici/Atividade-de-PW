@@ -30,34 +30,34 @@
         $qxtu = 12 * (int)$xtu;
         $qxdu = 15 * (int)$xdu;
 
-        $qagu = 2 * (int)$xbu;
-        $qsuc = 5 * (int)$xbu;
-        $qlat = 3 * (int)$xbu;
-        $qsei = 5 * (int)$xbu;
-        $qlit = 8 * (int)$xbu;
+        $qagu = 2 * (int)$agu;
+        $qsuc = 5 * (int)$suc;
+        $qlat = 3 * (int)$lat;
+        $qsei = 5 * (int)$sei;
+        $qlit = 8 * (int)$lit;
 
 
         $tot = $qxbu + $qxsa + $qxba + $qxtu + $qxdu + $qagu + $qsuc + $qlat + $qsei + $qlit; 
         echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>Olá $Nome, o total a pagar é de R$$tot</p>";
 
         if ($xbu != 0){
-            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comeu $xbu X-Burguers</p>"; 
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $xbu X-Burguers</p>"; 
         }else{}
 
         if ($xsa > 0){
-            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comeu $xsa X-Saladas</p>";
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $xsa X-Saladas</p>";
         }else{}
 
         if ($xba > 0){
-            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comeu $xba X-Bacons</p>";
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $xba X-Bacons</p>";
         }else{}
 
         if ($xtu > 0){
-            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comeu $xtu X-Tudo</p>";
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $xtu X-Tudo</p>";
         }else{}
 
         if ($xdu > 0){
-            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comeu $xdu X-Duplos</p>";
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $xdu X-Duplos</p>";
         }else{}
 
 
