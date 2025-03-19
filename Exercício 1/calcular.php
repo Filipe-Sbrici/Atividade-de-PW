@@ -30,15 +30,15 @@
         $qxtu = 12 * (int)$xtu;
         $qxdu = 15 * (int)$xdu;
 
-        $qagu = 2;
-        $qsuc = 5 ;
-        $qlat = 3 ;
-        $qsei = 5 ;
-        $qlit = 8 ;
+        $qagu = 2 * (int)$xbu;
+        $qsuc = 5 * (int)$xbu;
+        $qlat = 3 * (int)$xbu;
+        $qsei = 5 * (int)$xbu;
+        $qlit = 8 * (int)$xbu;
 
 
         $tot = $qxbu + $qxsa + $qxba + $qxtu + $qxdu + $qagu + $qsuc + $qlat + $qsei + $qlit; 
-        echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>Olá $Nome, o total a pagar é de $tot</p>";
+        echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>Olá $Nome, o total a pagar é de R$$tot</p>";
 
         if ($xbu != 0){
             echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comeu $xbu X-Burguers</p>"; 
@@ -58,6 +58,28 @@
 
         if ($xdu > 0){
             echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comeu $xdu X-Duplos</p>";
+        }else{}
+
+
+
+        if ($agu > 0){
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $agu garrafas d'água</p>";
+        }else{}
+
+        if ($suc > 0){
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $suc sucos</p>";
+        }else{}
+
+        if ($lat > 0){
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $lat Latas de Refrigerante</p>";
+        }else{}
+
+        if ($sei > 0){
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $sei garrafas de refrigerante de 600ml</p>";
+        }else{}
+
+        if ($lit > 0){
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $lit garrafas de refrigerante de 2 litros</p>";
         }else{}
 
 ?>
