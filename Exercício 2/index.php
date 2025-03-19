@@ -21,8 +21,8 @@
     <h2>Poção de Cura(7,00) <input type="number" name="cur" min="0" max="99"></h2>
     <h2>Poção de Mana(6,00) <input type="number" name="man" min="0" max="99"></h2>
     <h2>Poção da Sorte(15,00) <input type="number" name="sor" min="0" max="99"></h2>
-    <h2>Poção de Resistência ao Fogo(12,00)  <input type="fog" name="xtu" min="0" max="99"></h2>
-    <h2>Poção de Resistência ao Frio(12,00) <input type="fri" name="xdu" min="0" max="99"></h2>
+    <h2>Poção de Resistência ao Fogo(12,00)  <input type="number" name="fog" min="0" max="99"></h2>
+    <h2>Poção de Resistência ao Frio(12,00) <input type="number" name="fri" min="0" max="99"></h2>
 
     <br></br>
 
