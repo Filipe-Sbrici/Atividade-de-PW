@@ -41,28 +41,23 @@
         echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>Olá $Nome, o total a pagar é de $tot</p>";
 
 
-        if ($xbu != 0)
-        {
+        if ($xbu != 0){
             echo "você comeu $xbu X-saladas" ;
         }else{}
 
-        if ($xsa != 0)
-        {
+        if ($xsa != 0){
             echo "você comeu $xsa X-saladas" ;
         }else{}
 
-        if ($xba != 0)
-        {
+        if ($xba != 0){
             echo "você comeu $xba X-bacons" ;
         }else{}
 
-        if ($xtu != 0)
-        {
+        if ($xtu != 0){
             echo "você comeu $xtu X-tudo"; 
         }else{}
 
-        if ($xdu != 0)
-        {
+        if ($xdu != 0){
             echo "você comeu $xdu X-duplos" ;
         }else{}
 
