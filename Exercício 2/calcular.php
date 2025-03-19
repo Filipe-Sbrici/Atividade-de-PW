@@ -40,7 +40,7 @@
         $tot = $qcur + $qman + $qsor + $qfog + $qfri + $qpdf + $qcra + $qole + $qmad + $qedd; 
         echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>Olá $Nome, o total a pagar é de R$$tot</p>";
 
-        if ($cur != 0){
+        if ($cur > 0){
             echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $cur poções de cura</p>"; 
         }else{}
 

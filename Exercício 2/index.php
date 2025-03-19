@@ -11,7 +11,6 @@
 
 <form method = "post" action="calcular.php">
 
-
     <h1>Insira seu nome<input type="text" name="nome" min="0" max="99"></h1>
 
     <br></br>

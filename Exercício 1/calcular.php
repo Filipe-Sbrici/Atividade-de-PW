@@ -40,7 +40,7 @@
         $tot = $qxbu + $qxsa + $qxba + $qxtu + $qxdu + $qagu + $qsuc + $qlat + $qsei + $qlit; 
         echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>Olá $Nome, o total a pagar é de R$$tot</p>";
 
-        if ($xbu != 0){
+        if ($xbu > 0){
             echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $xbu X-Burguers</p>"; 
         }else{}
 
