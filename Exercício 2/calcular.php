@@ -24,17 +24,17 @@
         $mad = $_POST ['mad'];
         $edd = $_POST ['edd'];
 
-        $qcur = 6 * (int)$cur;
-        $qman = 8 * (int)$man;
-        $qsor = 10 * (int)$sor;
+        $qcur = 7 * (int)$cur;
+        $qman = 6 * (int)$man;
+        $qsor = 15 * (int)$sor;
         $qfog = 12 * (int)$fog;
-        $qfri = 15 * (int)$fri;
+        $qfri = 12 * (int)$fri;
 
-        $qpdf = 2 * (int)$pdf;
-        $qcra = 5 * (int)$cra;
-        $qole = 3 * (int)$ole;
-        $qmad = 5 * (int)$mad;
-        $qedd = 8 * (int)$edd;
+        $qpdf = 5 * (int)$pdf;
+        $qcra = 12 * (int)$cra;
+        $qole = 9 * (int)$ole;
+        $qmad = 23 * (int)$mad;
+        $qedd = 10 * (int)$edd;
 
 
         $tot = $qcur + $qman + $qsor + $qfog + $qfri + $qpdf + $qcra + $qole + $qmad + $qedd; 
