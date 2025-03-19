@@ -10,7 +10,7 @@
 
 <?php
 
-        $Nome = $_POST ['nome']
+        $Nome = $_POST ['nome'];
 
         $xbu = $_POST ['xbu'];
         $xsa = $_POST ['xsa'];
@@ -38,27 +38,26 @@
 
 
         $tot = $qxbu + $qxsa + $qxba + $qxtu + $qxdu + $qagu + $qsuc + $qlat + $qsei + $qlit; 
-        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>Olá $Nome, o total a pagar é de $tot</p>";
-
+        echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>Olá $Nome, o total a pagar é de $tot</p>";
 
         if ($xbu != 0){
-            echo "você comeu $xbu X-saladas" ;
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comeu $xbu X-Burguers</p>"; 
         }else{}
 
-        if ($xsa != 0){
-            echo "você comeu $xsa X-saladas" ;
+        if ($xsa > 0){
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comeu $xsa X-Saladas</p>";
         }else{}
 
-        if ($xba != 0){
-            echo "você comeu $xba X-bacons" ;
+        if ($xba > 0){
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comeu $xba X-Bacons</p>";
         }else{}
 
-        if ($xtu != 0){
-            echo "você comeu $xtu X-tudo"; 
+        if ($xtu > 0){
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comeu $xtu X-Tudo</p>";
         }else{}
 
-        if ($xdu != 0){
-            echo "você comeu $xdu X-duplos" ;
+        if ($xdu > 0){
+            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comeu $xdu X-Duplos</p>";
         }else{}
 
 ?>
