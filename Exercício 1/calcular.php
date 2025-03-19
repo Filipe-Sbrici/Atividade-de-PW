@@ -66,9 +66,6 @@
             echo "você comeu $xdu X-duplos" ;
         }else{}
 
-
-
-
 ?>
     
 </body>
