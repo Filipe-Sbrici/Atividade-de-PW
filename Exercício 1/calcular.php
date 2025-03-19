@@ -43,7 +43,7 @@
 
         if ($xbu != 0)
         {
-            echo <p class = "tex">você comeu $xbu X-burguers</p> 
+            echo "você comeu $xbu X-saladas" ;
         }else{}
 
         if ($xsa != 0)
