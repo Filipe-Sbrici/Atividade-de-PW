@@ -1,32 +1,25 @@
 <?php
-    
-        $Preço = $_POST ['Prec'];
-        $FormaP = $_POST ['Form'];
-        $Parcela = $_POST ['Parc'];
-        $Preçof = 0;
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $Preco = isset($_POST['Prec']) ? floatval($_POST['Prec']) : 0;
+        $FormaP = isset($_POST['Form']) ? $_POST['Form'] : "";
+        $Parcela = isset($_POST['Parc']) ? intval($_POST['Parc']) : 1;
+        $Precof = 0;
 
-        if (isset($_POST['Vista'])){
-
-            $Preçof = $Preço * 0.9;
-            echo "O preço final é de $Preçof";
-        }
-        else if (isset($_POST['Parcelado'])){
-            if ($Parcela > 6)
-            {
-                $Preçof = $Preço + ($Preço*0.2);
-                echo "O preço final é de $Preçof";
-            }
-            elseif ($Parcela <=6 && $Parcela > 4)
-            {
-                $Preçof = $Preço + ($Preço*0.1);
-                echo "O preço final é de $Preçof";
-            }
-            else 
-            {
-                  
-                echo "O preço final é de $Preço";
+        if ($FormaP == "Vista") {
+            $Precof = $Preco * 0.9;
+        } elseif ($FormaP == "Parcelado") {
+            if ($Parcela > 6) {
+                $Precof = $Preco + ($Preco * 0.2);
+            } elseif ($Parcela > 4) {
+                $Precof = $Preco + ($Preco * 0.1);
+            } else {
+                $Precof = $Preco;
             }
         }
+
+        echo "O preço final é de R$ " . number_format($Precof, 2, ',', '.');
+    }
+?>
       
 
 
