@@ -10,7 +10,7 @@
         } elseif ($FormaP == "Parcelado") {
             if ($Parcela > 6) {
                 $Precof = $Preco + ($Preco * 0.2);
-            } elseif ($Parcela > 4) {
+            } elseif ($Parcela >= 4) {
                 $Precof = $Preco + ($Preco * 0.1);
             } else {
                 $Precof = $Preco;
@@ -24,4 +24,3 @@
 
 
 
-?>
