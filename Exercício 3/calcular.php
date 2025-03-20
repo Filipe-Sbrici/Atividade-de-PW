@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+    <link href="styles.css" rel="stylesheet" >
+</head>
+<body>
+<h1>Menu Loja de RPG:</h1>
+
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $Preco = isset($_POST['Prec']) ? floatval($_POST['Prec']) : 0;
@@ -17,9 +28,12 @@
             }
         }
 
-        echo "O preço final é de R$ " . number_format($Precof, 2, ',', '.');
+        echo "<p style='color: rgb(227, 228, 241); font-family: Comic Sans MS; font-size: 20px;'>O preço final é de R$  . number_format($Precof, 2, ',', '.')</p>"; 
     }
 ?>
+
+</body>
+</html>
       
 
 
